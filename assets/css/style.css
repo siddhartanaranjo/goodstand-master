@@ -1,0 +1,102 @@
+body{
+  background: #e94a1f;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.navbar{
+  z-index: 11;
+  background: transparent!important;
+  border: none;
+  transition: all 1s ease-in;
+}
+.navbar-brand{
+  /*display: block!important;*/
+  position: absolute;
+  left: 47%;
+  top: 5%;
+  max-width: 125px;
+  opacity: 0;
+  transition: all 1s ease-in;
+}
+.nav a{
+  color: #fff!important;
+}
+nav.affix{
+  background: #fff!important;
+  padding-bottom: 2em;
+  transition: all 1s ease-in;
+}
+nav.affix .nav a{
+  margin-top: 1em;
+  color: #e94a1f!important;
+  transition: all 1s ease-in;
+}
+nav.affix .navbar-brand{
+  opacity: 1;
+  transition: all 1s ease-in;
+}
+.jumbotron{
+  background: transparent;
+}
+.jumbotron-text{
+  color: #fff;
+}
+#us{
+  background: #fff;
+  padding: 2em 0; 
+}
+#us-list{
+  padding: 1em 0 0 0;
+}
+#us-list li{
+  margin-bottom: 1em;
+  list-style: none;
+}
+.wrapper{
+  background: #fff;
+}
+#services{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#contact{
+  height: 100%;
+  padding-top: 2em;
+  position: relative;
+}
+footer{
+  padding: 1em 0;
+  background: #aaa;
+  color: #f9f9f9;
+}
+.list-inline a{
+  display: block;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #fff;
+  padding: .4em;
+  color: #aaa;
+}
+.fa-facebook:hover{
+  color: #385797;
+  transition: all .5s ease-in;
+}
+.fa-twitter:hover{
+  color: #03ABEA;
+  transition: all .5s ease-in;
+}
+.fa-youtube:hover{
+  color: #C92228;
+  transition: all .5s ease-in;
+}
+.hideMe{
+  opacity: 0;
+}
