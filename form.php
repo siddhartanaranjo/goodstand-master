@@ -6,7 +6,7 @@
         $mensaje = null;
 
         $name    = $_POST['name'];
-        $mail    = $_POST['mail'];
+        $mail    = $_POST['email'];
         $phone   = $_POST['phone'];
         $mensaje = $_POST['mensaje'];
         
@@ -37,7 +37,7 @@
         }
         
         $mailTo   = 'contacto@goodstand.com.mx';
-        $subject  = 'Contacto desde Integral Financiera';
+        $subject  = 'Contacto desde Goodstand.com.mx';
         $message  = 'Nombre: '.$name.'\n';
         $message .= 'Mail: '.$mail.'\n';
         $message .= 'Telefono: '.$phone.'\n';
