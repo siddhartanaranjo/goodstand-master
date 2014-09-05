@@ -8,7 +8,7 @@
         $name    = $_POST['name'];
         $mail    = $_POST['email'];
         $phone   = $_POST['phone'];
-        $mensaje = $_POST['mensaje'];
+        $mensaje = $_POST['message'];
         
 
         if ($name != null && strlen(trim($name)) > 0 ) {
